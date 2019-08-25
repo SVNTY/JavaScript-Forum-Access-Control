@@ -8,12 +8,12 @@ Edit the nested group arrays and user group array to see different results
 - Public
   - Public, Cops
     - Cops
-      - Cops, CopInteralAffairs
-      - Cops, CopHumanResources
+    - Cops, CopInteralAffairs
+    - Cops, CopHumanResources
   - Public, Government
     - Government
-      - Government, GovernmentSenate
-      - Government, GovernmentHouseOfRepresentitives
+    - Government, GovernmentSenate
+    - Government, GovernmentHouseOfRepresentitives
 
 ## User Permissions
 
