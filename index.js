@@ -33,7 +33,7 @@ let f = [{
         {
             "groups": [
                 "public",
-                "gangsters"
+                "gangs"
             ],
             "_id": "5d611ba5360ca9fe677ff94f",,
             "topics": [],
@@ -69,7 +69,7 @@ let f = [{
     ]
 }];
 
-let user = ['public', 'admin', 'cops', 'gangs', 'idiots', 'admin'];
+let user = ['public', 'admin', 'cops', 'gangs', 'admin'];
 
 
 const checkUserPermissions = function(forums, userGroups) {
