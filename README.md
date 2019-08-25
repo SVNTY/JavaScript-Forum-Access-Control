@@ -18,6 +18,6 @@ example of a forums structure
 
 A user with the groups of 
 
-['Public', 'Cops', 'CopInteralAffairs', 'CopHuamnResources', 'Government', 'GovernmentSentate']
+`['Public', 'Cops', 'CopInteralAffairs', 'CopHuamnResources', 'Government', 'GovernmentSentate']`
 
 Could see all forums other than `GovernmentHouseOfRepresentitives`
