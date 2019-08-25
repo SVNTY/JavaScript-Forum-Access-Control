@@ -3,7 +3,7 @@ Access control for nested JSON forums
 
 Edit the nested group arrays and user group array to see different results
 
-_Example of a forums structure_
+## Example of a forums structure
 
 - Public
   - Public, Cops
@@ -15,6 +15,7 @@ _Example of a forums structure_
       - Government, GovernmentSenate
       - Government, GovernmentHouseOfRepresentitives
 
+## User Permissions
 
 A user with the groups of 
 
