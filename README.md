@@ -12,12 +12,12 @@ example of a forums structure
       - Cops, CopHumanResources
   - Public, Government
     - Government
-      - Government, GovernmentSentate
+      - Government, GovernmentSenate
       - Government, GovernmentHouseOfRepresentitives
 
 
 A user with the groups of 
 
-`['Public', 'Cops', 'CopInteralAffairs', 'CopHuamnResources', 'Government', 'GovernmentSentate']`
+`['Public', 'Cops', 'CopInteralAffairs', 'CopHuamnResources', 'Government', 'GovernmentSenate']`
 
 Could see all forums other than `GovernmentHouseOfRepresentitives`
