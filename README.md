@@ -14,3 +14,10 @@ example of a forums structure
     - Government
       - Government, GovernmentSentate
       - Government, GovernmentHouseOfRepresentitives
+
+
+A user with the groups of 
+
+['Public', 'Cops', 'CopInteralAffairs', 'CopHuamnResources', 'Government', 'GovernmentSentate']
+
+Could see all forums other than `GovernmentHouseOfRepresentitives`
