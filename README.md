@@ -5,15 +5,15 @@ Edit the nested group arrays and user group array to see different results
 
 ## Example of a forums structure
 
-- Public
-  - Public, Cops
-    - Cops
-    - Cops, CopInteralAffairs
-    - Cops, CopHumanResources
-  - Public, Government
-    - Government
-    - Government, GovernmentSenate
-    - Government, GovernmentHouseOfRepresentitives
+- `['Public']`
+  - `['Public', 'Cops']`
+    - `['Cops']`
+    - `['Cops', 'CopInteralAffairs']`
+    - `['Cops', 'CopHumanResources']
+  - `['Public, Government']`
+    - `['Government']`
+    - `['Government'], ['GovernmentSenate']`
+    - `['Government', 'GovernmentHouseOfRepresentitives']`
 
 ## User Permissions
 
