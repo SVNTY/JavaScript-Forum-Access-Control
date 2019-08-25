@@ -9,7 +9,7 @@ Edit the nested group arrays and user group array to see different results
   - `['Public', 'Cops']`
     - `['Cops']`
     - `['Cops', 'CopInteralAffairs']`
-    - `['Cops', 'CopHumanResources']
+    - `['Cops', 'CopHumanResources']`
   - `['Public, Government']`
     - `['Government']`
     - `['Government'], ['GovernmentSenate']`
