@@ -73,10 +73,7 @@ let user = ['public', 'admin', 'cops', 'gangs', 'admin'];
 
 
 const checkUserPermissions = function(forums, userGroups) {
-  if (!forums.length) {
-    let z = forums.groups.diff(userGroups);
-    if (z.length != forums.groups.length) forums = null;
-  } else {
+  if (Object.prototype.toString.call(forums) !== '[object Array]') forums = [forums];
     forums.forEach((forum, index) => {
       let z = forum.groups.diff(userGroups);
       if (z.length != forum.groups.length) delete forums[index];
@@ -86,7 +83,7 @@ const checkUserPermissions = function(forums, userGroups) {
         }
       }
     });
-  } return forums;
+  return forums;
 }
 
 f = checkUserPermissions(f, user);
